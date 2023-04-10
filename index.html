@@ -1,1 +1,131 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Ainan Petshop</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header-logo">
+        <img class="logo" src="img/logo.png"/>
+      </div>
+      <div class="header-list">
+        <div class="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </div>
+        <ul>
+          <li class="home"><a href="#home">Home</a></li>
+          <li class="services"><a href="#services">Services</a></li>
+          <!--
+          <li class="about">About</li>
+          <li class="prices">Prices</li>
+          <li class="gallery">Gallery</li>
+          <li class="offers">Offers</li>
+          <li class="adoption">Adoption</li>
+          <!-->
+          <li class="contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section id="home">
+      <div class="main">
+        <div class="main-container">
+            <div class="item-wrapper">
+                <h1>WELCOME TO<br>AINAN PETSHOP</h1>
+                <p>We offer all the best quality products and<br>services for your adorable pets.</p>
+                <a href="#services">OUR SERVICES</a> 
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="services">
+      <div class="body">
+        <div class="container-body">
+          <div class="judul-body"><h2>Our Services</h2></div>
+        <div class="list-body">
+          <div class="row">
+            <div class="col">
+              <div class="img-wrapper">
+                <img src="img/kucing 1.jpg" alt="">
+            </div>
+            <h2>Pet Health</h2>
+            <p>We offer the most amazing services for your Pet's health and High quality professionals ready to take care of your best friend.</p>
+            </div>
+            <div class="col">
+              <div class="img-wrapper">
+                <img src="img/kucing 2.jpg" alt="">
+            </div>
+            <h2>Pet Grooming</h2>
+            <p>Lets talk through some ideas, look at some pictures and help you choose the next great look for your pet in out shop with the best.</p>
+            </div>
+            <div class="col">
+              <div class="img-wrapper">
+                <img src="img/kucing 3.jpg" alt="">
+            </div>
+            <h2>Pet Sitting</h2>
+            <p>Now you can leave your pet here when you travel with safety and great care for all animals we host here are our hotel.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <div class="contact-wrapper">
+        <div class="container-contact">
+          <div class="header-contact"><h2>Get in Touch</h2></div>
+          <div class="contact-items">
+            <div class="contact-item">
+                    <h2>Information</h2> 
+                    <p class="text-contents">Contact for additional information:</p>
+                    <p class="text-contents"><a href="mailto:ainanpetshop@site.com">ainanpetshop@site.com</a> or call us</p>
+                    <p class="text-contents">(0711) 123 456</p><br><br><br><br>
+                    <h2>Location & Time</h2> 
+                    <p class="text-contents">We are located at Pet City, 30154</p>
+                    <p class="text-contents">Open from 9 a.m to 10 p.m on weekdays and from 9 a.m to 2 p.m in weekends</p>
+            </div>
+            <div class="contact-item">
+              <p class="text-contents-form">Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                  <input type="text" name="name"  placeholder="Name" required="">
+                  <input type="email" name="email"  placeholder="Email ID" required="">
+                  <input type="text" name="subject"  placeholder="Subject" required="">
+                  <textarea name="message" id="message"  placeholder="Enter your message" required=""></textarea>
+                  <input type="submit" class="contact-submit message" id="" value="Send Message" />
+            </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+      </div>
+    </section>
+    
+    <!-- end contact form -->
+    
+    <footer>
+      <div class="container">
+        <ul class="flex-list">
+          <li class="li1">
+            <img src="img/logo.png" class="footer-logo">
+          </li>
+          <li class="li2">
+            <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" class="ubahwarna">
+            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" class="ubahwarna">
+            <img src="https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png" class="ubahwarna">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" class="ubahwarna">
+            <p>COPYRIGHT © 2023-FOREVER, AINAN PET SHOP</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

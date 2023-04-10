@@ -1,0 +1,120 @@
+/* Untuk Tablet dan Smartphones */
+@media (max-width: 991.98px) {
+  .header {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .header-logo p {
+    font-size: 17px;
+  }
+
+  .header-list .home {
+    display: none;
+  }
+
+  .header-list .services {
+    display: none;
+  }
+
+  .header-list .about {
+    display: none;
+  }
+
+  .header-list .prices {
+    display: none;
+  }
+
+  .header-list .gallery {
+    display: none;
+  }
+
+  .header-list .offers {
+    display: none;
+  }
+
+  .header-list .adoption {
+    display: none;
+  }
+
+  .header-list .contact {
+    display: none;
+  }
+
+  .btn {
+    display: block;
+    padding-top: 29px;
+    color: #fff;
+  }
+
+  .col {
+    flex-basis: 70%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .item-wrapper {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+  
+.item-wrapper h1{
+    font-size: 52px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+  /*css footer*/
+    .flex-list {
+      flex-direction: column;
+      padding-bottom: 10px;
+      padding-top: 0;
+    }
+    .flex-list li {
+      margin: 50px auto;
+      text-align: center;
+  
+    }
+}
+
+/*contact form*/
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .contact-item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  /* responsive main tablet*/
+  .item-wrapper {
+      text-align: center;
+      display: block;
+      padding: 20px;
+  }
+    
+  .item-wrapper p{
+      display:none;
+  }
+    
+  .item-wrapper h1{
+      font-size: 52px;
+      text-align: center;
+  }
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .contact-item {
+    width: 100%;
+  }
+
+  /* responsive main smartphone */
+  .main-container {
+    padding: 10px 0px; 
+  }
+  .item-wrapper h1{
+    font-size: 35px;
+    text-align: center;
+  }
+}
